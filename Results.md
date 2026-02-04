@@ -207,6 +207,31 @@ Summer  | 24204        | 1432609       | 59.19
 
 ### 5.2  Category Performance by Season (The "Seasonal Deep Dive")
 
+Season  | Category     | Units_Sold | Revenue
+|-------|---------------|-----------|--------|
+Fall    | Clothing     | 11190      | 663221
+Fall    | Accessories  | 7890       | 469908
+Fall    | Footwear     | 3816       | 226656
+Fall    | Outerwear    | 2105       | 125775
+Spring  | Clothing     | 11512      | 683129
+Spring  | Accessories  | 8155       | 482596
+Spring  | Footwear     | 3906       | 231138
+Spring  | Outerwear    | 2139       | 127592
+Summer  | Clothing     | 10828      | 640866
+Summer  | Accessories  | 7709       | 455134
+Summer  | Footwear     | 3719       | 221302
+Summer  | Outerwear    | 1948       | 115307
+Winter  | Clothing     | 11210      | 667575
+Winter  | Accessories  | 7873       | 468510
+Winter  | Footwear     | 3885       | 231744
+Winter  | Outerwear    | 2115       | 125614
+
+**Insights:**
+- Clothing is the top-selling category in all seasons
+- Accessories are second in sales and revenue for all seasons
+- Outerwear consistently sells the least in all seasons
+- Spring leads in both units sold and revenue across most categories
+  
  ## Q6 Are certain colors or sizes more popular than others for specific categories?
  # Purchase Patterns
 ## Q7 How does purchase frequency (monthly, bi-weekly, annually) relate to the total spending of a customer?
