@@ -233,6 +233,31 @@ Winter  | Outerwear    | 2115       | 125614
 - Spring leads in both units sold and revenue across most categories
   
  ## Q6 Are certain colors or sizes more popular than others for specific categories?
+ Category    | Color      | Size | Units_Sold | Total_Revenue | Popularity_Rank
+ |-----------|------------|------|------------|---------------|----------------|
+Accessories | Cyan       | M    | 668        | 40042         | 1
+Clothing    | Yellow     | M    | 927        | 53316         | 1
+Footwear    | Olive      | M    | 341        | 20027         | 1
+Outerwear   | Violet     | M    | 181        | 10852         | 1
+Accessories | Olive      | M    | 664        | 39051         | 2
+Accessories | Teal       | M    | 664        | 39250         | 2
+Clothing    | Olive      | M    | 908        | 53157         | 2
+Footwear    | Silver     | M    | 318        | 18469         | 2
+Outerwear   | Yellow     | M    | 180        | 10764         | 2
+Clothing    | Teal       | M    | 892        | 53643         | 3
+Footwear    | Teal       | M    | 315        | 18779         | 3
+Outerwear   | Olive      | M    | 174        | 10715         | 3
+...
+Accessories | Indigo     | XL   | 104        | 5893          | 100
+Clothing    | Charcoal   | XL   | 163        | 9449          | 100
+Footwear    | Peach      | XL   | 44         | 2737          | 100
+Outerwear   | Turquoise  | XL   | 24         | 1343          | 100
+**Insights:**
+- Top-selling items by popularity rank 1–3 are mainly Accessories, Clothing, and Footwear in Medium size.
+- Colors like Cyan, Yellow, Olive, Teal appear frequently among top sellers.
+- Large (L, XL) and Small (S) sizes generally sell less than Medium (M), indicating M is the most demanded size.
+- Outerwear items consistently have lower units sold compared to Accessories and Clothing.
+- Revenue largely follows units sold, popularity correlates with both units and revenue.
  # Purchase Patterns
 ## Q7 How does purchase frequency (monthly, bi-weekly, annually) relate to the total spending of a customer?
 ## Q8 Is there a correlation between previous purchases and current purchase amount?
