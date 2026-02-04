@@ -304,9 +304,51 @@ Yes                 | 26990           | 59.19     | 1597515
 
 # Promotions & Discounts
 ## Q10 How effective are discounts or promo codes in increasing purchase amounts or frequency?
+
+Promo_Code_Used | Discount_Applied | Total_Transactions | Avg_Spend | Avg_Past_Loyalty
+|---------------|------------------|--------------------|-----------|-----------------|
+No              | Yes              | 24493              | 59.42     | 24.9
+Yes             | Yes              | 18493              | 59.26     | 24.9
+Yes             | No               | 24520              | 59.48     | 25.1
+No              | No               | 32494              | 59.28     | 25
+**Insights:**
+- Transactions without promo codes are the most common
+- Average spend is very similar regardless of promo usage or discount
+- Past loyalty is slightly higher for those using a promo code without a discount
+- Discounts and promo codes do not significantly change average spend
+- 
 ## Q11 Do certain payment methods correlate with higher purchase amounts or repeated purchases?
+Payment_Method | Usage_Count | Avg_Transaction_Value | Total_Revenue
+|--------------|-------------|-----------------------|--------------|
+Venmo          | 16318       | 59.49                | 970829
+Cash           | 16918       | 59.44                | 1005621
+Debit Card     | 16388       | 59.37                | 972994
+PayPal         | 17524       | 59.34                | 1039868
+Credit Card    | 17100       | 59.34                | 1014725
+Bank Transfer  | 15752       | 59.17                | 932030
+**Insights:**
+- PayPal is the most used payment method and generates the highest total revenue
+- Bank Transfer is least used with slightly lower transaction value
+- Average transaction value is very similar across all methods (~$59)
+- Cash and Credit Card are also popular, showing no single method dominates completely
 ## Q12 Are customers who use free shipping or faster shipping options spending more on average?
+
+Shipping_Type    | Order_Volume | Avg_Order_Value | Customer_Satisfaction
+|----------------|--------------|-----------------|----------------------|
+Free Shipping    | 17540        | 59.65           | 3.8
+Standard         | 16797        | 59.4            | 3.8
+2-Day Shipping   | 16269        | 59.31           | 3.81
+Next Day Air     | 16392        | 59.31           | 3.79
+Express          | 16525        | 59.28           | 3.81
+Store Pickup     | 16477        | 59.2            | 3.8
+
+**Insights:**
+- Free Shipping drives the highest order volume
+- 2-Day Shipping and Express have the highest customer satisfaction (3.81)
+- Next Day Air has slightly lower satisfaction (3.79) despite similar order value
+- Average order value is very consistent across shipping types (~$59)
 #  Customer Feedback & Engagement
+
  ## Q13 How does review rating correlate with repeat purchases or purchase amount?
 ## Q14 Are there particular products or categories that consistently receive low or high ratings?
 ## Q15 Can we predict the likelihood of a customer making a repeat purchase based on their first purchase behavior, subscription status, and purchase amount?
