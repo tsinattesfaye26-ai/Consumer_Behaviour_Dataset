@@ -1,4 +1,4 @@
-<img width="289" height="161" alt="image" src="https://github.com/user-attachments/assets/d047f7be-cb6c-408a-8a5d-2aa69b81b6c1" /># Customer Demographics & Behavior
+# Customer Demographics & Behavior
 
 ## Q1 What is the age distribution of our customers, and which age group spends the most on purchases?
 Age_Group	| Total_Customers |	Total_Revenue	| Avg_Spend_Per_Customer_usd
@@ -350,5 +350,59 @@ Store Pickup     | 16477        | 59.2            | 3.8
 #  Customer Feedback & Engagement
 
  ## Q13 How does review rating correlate with repeat purchases or purchase amount?
+Review_Rating | Total_Orders | Avg_Spend | Avg_Loyalty_Score
+|-------------|--------------|-----------|------------------|
+5             | 20075        | 60.29     | 25.6
+4             | 39989        | 59.68     | 25.1
+3             | 39936        | 58.57     | 24.6
+**Insights:**
+- Orders with 5-star reviews have the highest average spend and loyalty score.
+- Orders with 3- and 4-star reviews are more frequent but have slightly lower spend and loyalty.
+- Higher review rating correlates with higher customer loyalty and spending.
+
 ## Q14 Are there particular products or categories that consistently receive low or high ratings?
+Category   | Item_Purchased | Times_Purchased | Avg_Rating
+|----------|-----------------|----------------|------------|
+Outerwear  | Gloves         | 289             | 3.87
+Outerwear  | Shorts         | 313             | 3.87
+Outerwear  | Shirt          | 349             | 3.86
+Outerwear  | Hat            | 329             | 3.86
+Footwear   | Hoodie         | 616             | 3.86
+Outerwear  | Jacket         | 348             | 3.84
+Outerwear  | Skirt          | 328             | 3.84
+Outerwear  | T-shirt        | 295             | 3.84
+Outerwear  | Boots          | 320             | 3.84
+Footwear   | Hat            | 597             | 3.84
+Footwear   | Jewelry        | 636             | 3.84
+Footwear   | Sunglasses     | 667             | 3.84
+Footwear   | Jacket         | 640             | 3.84
+Accessories| Backpack       | 1140            | 3.83
+Accessories| Jeans          | 1065            | 3.83
+Outerwear  | Handbag        | 347             | 3.83
+Clothing   | Sweater        | 1871            | 3.83
+Footwear   | Shirt          | 710             | 3.83
+Clothing   | Jacket         | 1855            | 3.83
+Accessories| Hat            | 1207            | 3.83
+Accessories| Gloves         | 1125            | 3.82
+...
+Footwear   | Gloves         | 496             | 3.71
+
+**Insights:**
+- Outerwear items (Gloves, Jackets, T-shirts) have slightly higher ratings (up to 3.87)
+- Footwear and Accessories dominate in purchase volume but have slightly lower average ratings (~3.8–3.84)
+- Clothing items are consistently popular with ratings around 3.79–3.83
+- Lowest rated items are Footwear Gloves (3.71) and Outerwear Belt (3.72)
+- Overall, ratings are clustered in 3.7–3.87, indicating generally good customer satisfaction across categories
+
 ## Q15 Can we predict the likelihood of a customer making a repeat purchase based on their first purchase behavior, subscription status, and purchase amount?
+Predictor_Group             | Total_Customers | Percent_of_Total_Base | Avg_Ticket_Size 
+|----------------------------|-----------------|-----------------------|---------------|
+Medium Likelihood (Loyalists)| 71221           | 71.22                | 59.46
+High Likelihood (VIPs)      | 21336           | 21.34                | 59.26
+Low Likelihood (New/Inactive)| 7443            | 7.44                 | 58.74
+**Insights:**
+
+- Medium Likelihood (Loyalists) make up the majority of customers and have a solid average spend
+- High Likelihood (VIPs) are smaller but important for revenue
+- Low Likelihood (New/Inactive) are the smallest group and spend slightly less
+- Customer likelihood correlates with slightly higher average ticket size
