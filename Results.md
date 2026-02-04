@@ -1,4 +1,4 @@
-# Customer Demographics & Behavior
+<img width="289" height="161" alt="image" src="https://github.com/user-attachments/assets/d047f7be-cb6c-408a-8a5d-2aa69b81b6c1" /># Customer Demographics & Behavior
 
 ## Q1 What is the age distribution of our customers, and which age group spends the most on purchases?
 Age_Group	| Total_Customers |	Total_Revenue	| Avg_Spend_Per_Customer_usd
@@ -252,16 +252,56 @@ Accessories | Indigo     | XL   | 104        | 5893          | 100
 Clothing    | Charcoal   | XL   | 163        | 9449          | 100
 Footwear    | Peach      | XL   | 44         | 2737          | 100
 Outerwear   | Turquoise  | XL   | 24         | 1343          | 100
+
 **Insights:**
-- Top-selling items by popularity rank 1–3 are mainly Accessories, Clothing, and Footwear in Medium size.
-- Colors like Cyan, Yellow, Olive, Teal appear frequently among top sellers.
-- Large (L, XL) and Small (S) sizes generally sell less than Medium (M), indicating M is the most demanded size.
-- Outerwear items consistently have lower units sold compared to Accessories and Clothing.
-- Revenue largely follows units sold, popularity correlates with both units and revenue.
+- Top-selling items by popularity rank 1–3 are mainly Accessories, Clothing, and Footwear in Medium size
+- Colors like Cyan, Yellow, Olive, Teal appear frequently among top sellers
+- Large (L, XL) and Small (S) sizes generally sell less than Medium (M), indicating M is the most demanded size
+- Outerwear items consistently have lower units sold compared to Accessories and Clothing
+- Revenue largely follows units sold, popularity correlates with both units and revenue
+
  # Purchase Patterns
+ 
 ## Q7 How does purchase frequency (monthly, bi-weekly, annually) relate to the total spending of a customer?
+
+Frequency_of_Purchases | Number_of_Customers | Avg_Transaction_Amount | Total_Revenue
+|----------------------|---------------------|------------------------|--------------|
+Every 3 Months         | 15168               | 59.09                  | 896276
+Annually               | 14769               | 59.36                  | 876626
+Quarterly              | 14383               | 59.47                  | 855344
+Bi-Weekly              | 14198               | 59.41                  | 843558
+Weekly                 | 13842               | 59.68                  | 826097
+Monthly                | 13949               | 59.14                  | 824986
+Fortnightly            | 13691               | 59.4                   | 813180
+
+**Insights:**
+- Most customers purchase every 3 months, generating the highest total revenue
+- Weekly and Monthly buyers spend slightly more per transaction but have fewer customers
+- Total revenue gradually decreases as purchase frequency decreases, showing larger customer base drives revenue
+
 ## Q8 Is there a correlation between previous purchases and current purchase amount?
+Loyalty_Level        | Customer_Count | Avg_Current_Spend
+|--------------------|----------------|------------------|
+Loyalist (30+)       | 38842          | 59.62
+Regular (11-30)      | 40620          | 59.4
+Occasional (1-10)    | 20538          | 58.8
+
+**Insights:**
+- Regular customers (11–30 purchases) are the largest group
+- Loyalists (30+ purchases) spend slightly more per order on average
+- Occasional customers are smaller in number and spend slightly less per transaction
+- High loyalty correlates with slightly higher average spend
+
 ## Q9 Do subscribed customers spend more or purchase more frequently than non-subscribed customers?
+Subscription_Status | Total_Customers | Avg_Spend | Total_Revenue
+|-------------------|------------------|-----------|--------------|
+No                  | 73010           | 59.42     | 4338552
+Yes                 | 26990           | 59.19     | 1597515
+**Insights:**
+- Most customers (~73k) do not have a subscription
+- Subscribers spend slightly less per transaction on average, but are a smaller group
+- Revenue is mainly driven by the non-subscribed majority
+
 # Promotions & Discounts
 ## Q10 How effective are discounts or promo codes in increasing purchase amounts or frequency?
 ## Q11 Do certain payment methods correlate with higher purchase amounts or repeated purchases?
